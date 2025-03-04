@@ -25,3 +25,17 @@ npx tsc --init
 ```
 npx ts-node index.ts
 ```
+
+# Test with jest
+
+```
+npm install ts-jest jest -D
+npm install @types/jest -D
+
+```
+
+# Settings js
+
+```
+npx ts-jest config:init
+```

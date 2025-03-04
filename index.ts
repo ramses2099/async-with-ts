@@ -1,14 +1,15 @@
-import fetch from "node-fetch";
+import { getPostList } from "./src/functions";
 
-interface Post{
-    userId:number;
-    id:number;
-    title:string;
-    body:string;
-}
 
-fetch('https://jsonplaceholder.typicode.com/posts')
-.then(res => res.json())
-.then((data: Post[]) => console.log(data[0]));
+(async function(){
+    try{
+        const posts = await getPostList();
+        console.log(posts[0]);
+    }catch(err: Error | any){
+        console.error(err.message);
+    } 
+})();
+
+
 
 
