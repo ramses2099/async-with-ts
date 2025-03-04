@@ -1,0 +1,29 @@
+{
+  "name": "async-with-ts",
+  "version": "1.0.0",
+  "description": "Mastering async code with Typescript and Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramses2099/async-with-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ramses2099/async-with-ts/issues"
+  },
+  "homepage": "https://github.com/ramses2099/async-with-ts#readme",
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
